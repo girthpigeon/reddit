@@ -13,22 +13,22 @@
 <div class="module form-module">
   <div class="form">
     <h2>Login to your account</h2>
-    <form>
-      <input type="text" placeholder="Username"/>
-      <input type="password" placeholder="Password"/>
-      <button id="login-btn">Login</button>
+    <form action="/login" method="POST">
+      <input type="text" name="username" placeholder="Username"/>
+      <input type="password" name="password" placeholder="Password"/>
+      <button>Login</button>
     </form>
   </div>
   <div class="form">
     <h2>Create an account</h2>
-    <form>
-      <input type="text" placeholder="Username"/>
-      <input type="password" placeholder="Password"/>
-      <input type="email" placeholder="Email Address"/>
-      <button id="register-btn">Register</button>
+    <form action="/register" method="POST">
+      <input type="text" name="username" placeholder="Username"/>
+      <input type="password" name="password" placeholder="Password"/>
+      <input type="email" name="email" placeholder="Email Address"/>
+      <button type="submit">Register</button>
     </form>
   </div>
-  <div class="cta"><a href="http://andytran.me">Forgot your password?</a></div>
+  <div class="cta"><a>Forgot your password?</a></div>
 </div>
 <script src="js/login.js"></script>
 </body>
