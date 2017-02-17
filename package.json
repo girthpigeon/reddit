@@ -1,0 +1,29 @@
+{
+  "name": "reddit",
+  "version": "1.0.0",
+  "description": "Tinder interview reddit implementation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girthpigeon/reddit.git"
+  },
+  "author": "pajka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girthpigeon/reddit/issues"
+  },
+  "homepage": "https://github.com/girthpigeon/reddit#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
